@@ -10,12 +10,12 @@ int main() {
     string first_name; //first name is a variable of type string
     cin >> first_name; //reads characters into first_name
     cout << "Enter the name of your friend:\n";
-    string friend_name; 
+    string friend_name;
     cin >> friend_name;
     cout << "Enter your recipient's age:\n";
     int age;
     cin >> age;
-    if (0 > age or age > 110) {
+    if (age <= 0 or age > 110) {
         simple_error("you're kidding!");
     }
     cout << "Dear " << first_name << ",\n";
