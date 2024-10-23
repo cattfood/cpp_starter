@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-int num1, num2;
+double num1, num2;
 
 int main(){
         cout << "please enter two numbers:\n";
